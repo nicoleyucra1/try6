@@ -5,7 +5,7 @@ import { registerRequest } from '../services';
 import { getErrorMessage } from "../api";
 import { ui } from '../ui';
 
-export default function LoginPage(){
+export default function RegisterPage(){
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
